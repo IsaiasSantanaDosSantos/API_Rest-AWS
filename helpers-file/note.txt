@@ -1,0 +1,3 @@
+#### TAREFAS ####
+
+Está dando erro ao usar o Insonmia, minha intenção é criar todas as tabelas novamente deste o iníco, a tabela de alunos já foi criada, falta usuário e fotos;

@@ -1,0 +1,4 @@
+
+pm2 start /home/foreb/agenda/server.js --name agenda
+pm2 list
+pm2 startup

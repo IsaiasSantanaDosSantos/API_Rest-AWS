@@ -1,0 +1,35 @@
+######### SEQUELIZE COMMANDS #########
+
+(terminal)
+
+Create table:
+→ npx sequelize migration:create --name=alunos
+
+Fazer migração:
+→ npx sequelize db:migrate
+
+Apagar tabela:
+→ npx sequelize db:migrate:undo
+
+##### Fazendo alterações e subindo no servidor #####
+ 1. Após cada alteração, precisa dar o (No repositório local, usei o terminal do VSC):
+  → npm run build
+  → git add .
+  → git commit -m 'message'
+  → git push
+
+ 2. Depois entrar no servidor com o terminal do git com o "Git bash" com os seguintes comando:
+  → ssh 34.95.213.9 (entrar no servidor);
+  → git pull origin main
+  → pm2 restart api
+
+Feito isso, as mudanças já se refletem no arquivo 'Prod'.
+
+####### PARA CONECTAR AO SERVIDOR ######
+Comando (em qualquer pasta com Git Bash):
+→ ssh -i ~/.ssh/id_rsa ubuntu@isaiassantana.com.br
+
+
+
+OBS:
+Próxima aula: 164 Configurando o Git e enviando os arquivos para o servidor.
