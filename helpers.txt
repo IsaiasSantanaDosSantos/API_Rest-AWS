@@ -32,4 +32,7 @@ Comando (em qualquer pasta com Git Bash):
 
 
 OBS:
-Próxima aula: 164 Configurando o Git e enviando os arquivos para o servidor.
+Próxima aula: 188.
+Não consegui conectar o repositório local com o remoto.
+
+Parei nesta aula (188) deploy da noss api, aos 19m23s
