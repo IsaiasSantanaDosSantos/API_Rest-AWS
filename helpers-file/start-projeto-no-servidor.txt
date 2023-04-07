@@ -30,6 +30,14 @@ Para iniciar o servidor:
 	→ git push origin master -u
 	Ai as próximas vezes que for dar push, só precisará do "git push".
 
+### PARA O SERVIDOR FAZER UM PULL DO REPOSITÓRIO GITHUB ###
+Ir para a pasta:
+→ cd /var/www/github-webhook
+Depois excutar o script do Flask:
+→ python3 /var/www/github-webhook/app.py
+
+
+
 
 ###### 	fetch #####
 fetch('https://isaiassantana.com.br/alunos')
