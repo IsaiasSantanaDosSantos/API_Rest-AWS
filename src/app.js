@@ -15,7 +15,11 @@ import tokenRoutes from "./routes/tokenRoutes";
 import alunoRoutes from "./routes/alunoRoutes";
 import fotoRoutes from "./routes/fotoRoutes";
 
-const whitwList = ["https://isaiassantana.com.br", "http://localhost:3001"];
+const whitwList = [
+  "https://isaiassantana.com.br",
+  "http://localhost:3000",
+  "http://localhost:3001",
+];
 
 const corsOptions = {
   origin: function (origin, callBack) {

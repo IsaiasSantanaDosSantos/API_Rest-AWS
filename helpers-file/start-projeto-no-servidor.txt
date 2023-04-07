@@ -16,8 +16,11 @@ Precisa parar o nginx com o comando:
 Agora é só iniciar o nginx com o comando:
 	→ sudo systemctl start nginx
 
+Para iniciar o servidor:
+	→ pm2 restart api
+
 ### MUDANÇAS NO PROJETO ###
-	Após fazer a mudanças no projeto, devemos fazer o build com o comando: 
+	Após fazer a mudanças no projeto, devemos fazer o build com o comando:
 	→ npm build
 	Logo após, subir as mudanças para o repositório remoto com os comandos:
 	→ git add .
@@ -26,10 +29,9 @@ Agora é só iniciar o nginx com o comando:
 	Para setar a branch (caso necessário) após o comando anterior dé o seguinte comando:
 	→ git push origin master -u
 	Ai as próximas vezes que for dar push, só precisará do "git push".
- 
+
 
 ###### 	fetch #####
 fetch('https://isaiassantana.com.br/alunos')
 	.then((response) => response.json())
 	.then((json) => console.log(json))
-
