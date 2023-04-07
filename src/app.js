@@ -60,4 +60,4 @@ class App {
 
 export default new App().app;
 
-//restart nginx
+//Tudo certo!!!!!!! 
