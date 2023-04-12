@@ -21,7 +21,7 @@ Para iniciar o servidor:
 
 ### MUDANÇAS NO PROJETO ###
 	Após fazer a mudanças no projeto, devemos fazer o build com o comando:
-	→ npm build
+	→ npm run build
 	Logo após, subir as mudanças para o repositório remoto com os comandos:
 	→ git add .
 	→ git commit -am 'mensagem'

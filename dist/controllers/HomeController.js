@@ -2,7 +2,7 @@
 
 class HomeController {
   async index(req, res) {
-    res.json("IndexX");
+    res.json("The API Rest is online. Comgratulation!!!");
   }
 }
 // class HomeController {
